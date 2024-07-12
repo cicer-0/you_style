@@ -1,3 +1,3 @@
 function contact() {
-    window.location.href = 'mailto:hilosmagicostm@gmail.com';
+  window.open("https://wa.me/51932360375", "_blank");
 }
