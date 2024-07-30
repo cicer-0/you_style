@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="assets/icons/youstyletm.jpg" type="image/x-icon">
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -40,11 +41,11 @@
     <section class="services">
       <h2>Productos destacados</h2>
       <div class="buttons-container">
-        <button class="custom-button shein" onclick="loadSheinProducts()">
+        <button id="shein-button" class="custom-button shein selected" onclick="selectButton('shein')">
           <img src="assets/icons/shein-icon.svg" alt="Shein" class="button-icon"/> 
           Shein
         </button>
-        <button class="custom-button temu" onclick="loadTemuProducts()">
+        <button id="temu-button" class="custom-button temu" onclick="selectButton('temu')">
           <img src="assets/icons/temu-icon.svg" alt="Temu" class="button-icon"/> 
           Temu
         </button>        
@@ -87,6 +88,19 @@
     
     <script src="scripts.js"></script>
     <script>
+      function selectButton(button) {
+        document.getElementById('shein-button').classList.remove('selected');
+        document.getElementById('temu-button').classList.remove('selected');
+        
+        if (button === 'shein') {
+          document.getElementById('shein-button').classList.add('selected');
+          loadSheinProducts();
+        } else {
+          document.getElementById('temu-button').classList.add('selected');
+          loadTemuProducts();
+        }
+      }
+
       function redirectToWhatsApp(product) {
         const phoneNumber = "51932360375";
         const message = `Hola, estoy interesado en el producto: ${product}`;
@@ -108,6 +122,11 @@
       function redirectToTemu() {
         window.open("https://www.temu.com/", "_blank");
       }
+
+      // Cargar productos de Shein por defecto
+      window.onload = function() {
+        selectButton('shein');
+      };
     </script>
   </body>
 </html>
