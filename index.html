@@ -40,97 +40,16 @@
     <section class="services">
       <h2>Productos destacados</h2>
       <div class="buttons-container">
-        <button class="custom-button" onclick="redirectToGroup('SHEIN')">
+        <button class="custom-button shein" onclick="loadSheinProducts()">
+          <img src="assets/icons/shein-icon.svg" alt="Shein" class="button-icon"/> 
           Shein
         </button>
-        <button class="custom-button" onclick="redirectToGroup('TEMU')">
+        <button class="custom-button temu" onclick="loadTemuProducts()">
+          <img src="assets/icons/temu-icon.svg" alt="Temu" class="button-icon"/> 
           Temu
-        </button>
+        </button>        
       </div>
-      <div class="service-container">
-        <div class="service-item">
-          <img src="assets/imgs/image005.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image006.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image007.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-      </div>
-      <div class="service-container">
-        <div class="service-item">
-          <img src="assets/imgs/image008.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image009.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image010.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-      </div>
-      <div class="service-container">
-        <div class="service-item">
-          <img src="assets/imgs/image011.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image012.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image013.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-      </div>
-      <div class="service-container">
-        <div class="service-item">
-          <img src="assets/imgs/image014.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image015.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image016.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-      </div>
-      <div class="service-container">
-        <div class="service-item">
-          <img src="assets/imgs/image017.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image018.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image019.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-      </div>
-      <div class="service-container">
-        <div class="service-item">
-          <img src="assets/imgs/image020.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image021.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-        <div class="service-item">
-          <img src="assets/imgs/image022.jpeg" alt="" />
-          <button onclick="redirectToWhatsApp('')">¡Preguntar!</button>
-        </div>
-      </div>
+      <div id="product-list" class="product-list"></div>
     </section>
     <section class="about">
       <h2>Sobre Nosotros</h2>
@@ -158,7 +77,14 @@
     </section>
     <footer>
       <p>Para realizar tu pedido, escríbenos al +51 932 360 375</p>
+      <p>
+        Visítanos en nuestra página de Facebook:
+        <a href="https://www.facebook.com/youstyletm" target="_blank">
+          <img src="assets/icons/facebook-icon.jpeg" alt="Facebook" class="social-icon"/> YOU STYLE en Facebook
+        </a>
+      </p>
     </footer>
+    
     <script src="scripts.js"></script>
     <script>
       function redirectToWhatsApp(product) {
@@ -175,14 +101,12 @@
         window.open("https://wa.me/51932360375", "_blank");
       }
 
-      function redirectToGroup(group) {
-        let url = "";
-        if (group === "SHEIN") {
-          url = "https://chat.whatsapp.com/CVAtExXUPT4FFAeLgKYryR";
-        } else if (group === "TEMU") {
-          url = "https://chat.whatsapp.com/D0xBrvvCL2b12fElrLc5z6";
-        }
-        window.open(url, "_blank");
+      function redirectToShein() {
+        window.open("https://www.shein.com/", "_blank");
+      }
+
+      function redirectToTemu() {
+        window.open("https://www.temu.com/", "_blank");
       }
     </script>
   </body>
