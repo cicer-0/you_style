@@ -1,0 +1,11 @@
+[
+    { "src": "image005.jpeg", "title": "Top Básico", "description": "Top básico en varios colores, ideal para combinar con cualquier outfit.", "link": "https://example.com/top-basico" },
+    { "src": "image006.jpeg", "title": "Bolso Negro", "description": "Elegante bolso negro, perfecto para cualquier ocasión.", "link": "https://example.com/bolso-negro" },
+    { "src": "image007.jpeg", "title": "Vestido Negro", "description": "Vestido negro ajustado, perfecto para una salida nocturna.", "link": "https://example.com/vestido-negro" },
+    { "src": "image008.jpeg", "title": "Gafas de Sol", "description": "Gafas de sol modernas con cadena dorada.", "link": "https://example.com/gafas-sol" },
+    { "src": "image009.jpeg", "title": "Kit de Accesorios", "description": "Kit de accesorios para el cabello, coloridos y variados.", "link": "https://example.com/kit-accesorios" },
+    { "src": "image010.jpeg", "title": "Herramientas de Masaje", "description": "Herramientas de masaje facial, ideales para el cuidado de la piel.", "link": "https://example.com/herramientas-masaje" },
+    { "src": "image011.jpeg", "title": "Fundas para Teléfono", "description": "Fundas protectoras para tu smartphone en colores pastel.", "link": "https://example.com/fundas-telefono" },
+    { "src": "image012.jpeg", "title": "Collar con Colgante de Araña", "description": "Collar plateado con colgante de araña negra, para un estilo único.", "link": "https://example.com/collar-arana" }
+  ]
+  
