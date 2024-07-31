@@ -1,11 +1,200 @@
 [
-    { "src": "image013.jpeg", "title": "Vestido Floral", "description": "Vestido floral de primavera, perfecto para cualquier ocasión.", "link": "https://example.com/vestido-floral" },
-    { "src": "image014.jpeg", "title": "Organizador de Maquillaje", "description": "Mantén tu maquillaje organizado con este práctico organizador.", "link": "https://example.com/organizador-maquillaje" },
-    { "src": "image015.jpeg", "title": "Set de Brochas", "description": "Juego de brochas de maquillaje de alta calidad.", "link": "https://example.com/set-brochas" },
-    { "src": "image016.jpeg", "title": "Aretes de Ositos", "description": "Aretes coloridos en forma de ositos, para un look divertido.", "link": "https://example.com/aretes-ositos" },
-    { "src": "image017.jpeg", "title": "Bolso de Hombre", "description": "Bolso casual para hombre, perfecto para el día a día.", "link": "https://example.com/bolso-hombre" },
-    { "src": "image018.jpeg", "title": "Sudaderas a Juego", "description": "Sudaderas negras a juego, ideales para parejas.", "link": "https://example.com/sudaderas-juego" },
-    { "src": "image019.jpeg", "title": "Conjunto de Accesorios", "description": "Conjunto de collares y pulseras negras con diseño de cruz.", "link": "https://example.com/conjunto-accesorios" },
-    { "src": "image020.jpeg", "title": "Camiseta con Araña", "description": "Camiseta negra con diseño de araña roja, para un look atrevido.", "link": "https://example.com/camiseta-arana" }
-  ]
-  
+  {
+    "src": "shein/shein1000.jpeg",
+    "title": "Vestido Veraniego Verde Salvia",
+    "description": "Vestido entallado color verde salvia, perfecto para el verano.",
+    "link": "https://www.shein.com/SHEIN-BAE-Summer-Sage-Green-Pistachio-Sweetheart-Bodycon-Fish-Tail-Dress-Dress-For-Women-p-34667883.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_4%60ps%3D4_4%60jc%3DitemPicking_008255619&src_module=All&src_tab_page_id=page_home1722383279834&pageListType=2&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1001.jpeg",
+    "title": "Vestido Floral con Cuello Halter",
+    "description": "Vestido a cuadros con flores y volante, ideal para el verano.",
+    "link": "https://www.shein.com/SHEIN-MOD-Plaid-Floral-And-Print-Cami-Dress-With-Ruffle-Collar-Tie-Back-Ruched-Bust-And-Layered-Dress-Summer-p-37019490.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_4%60ps%3D4_4%60jc%3DitemPicking_008255619&src_module=All&src_tab_page_id=page_home1722383279834&pageListType=2&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1002.jpeg",
+    "title": "Vestido Bodycon Blanco",
+    "description": "Vestido ajustado con detalles recortados, perfecto para una salida nocturna.",
+    "link": "https://www.shein.com/SHEIN-Priv-Cut-Out-Ruched-Cami-Bodycon-Dress-p-14523957.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_4%60ps%3D4_4%60jc%3DitemPicking_008255619&src_module=All&src_tab_page_id=page_home1722383279834&pageListType=2&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1003.jpeg",
+    "title": "Vestido Negro Ajustado",
+    "description": "Vestido negro de manga larga y ajuste ceñido, ideal para cualquier ocasión.",
+    "link": "https://www.shein.com/SHEIN-EZwear-Ladies-Solid-Color-Slim-Fit-One-Piece-Dress-p-28049415.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_4%60ps%3D4_4%60jc%3DitemPicking_008255619&src_module=All&src_tab_page_id=page_home1722383279834&pageListType=2&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1004.jpeg",
+    "title": "Camisetas Básicas",
+    "description": "Juego de camisetas básicas en colores variados, perfectas para el verano.",
+    "link": "https://www.shein.com/SHEIN-EZwear-3pcs-Crop-Casual-Camisoles-Suitable-For-Summer-Slimming-Women-s-Tank-Tops-p-31049731.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_1%60ps%3D4_1%60jc%3Dreal_4436&src_module=All&src_tab_page_id=page_home1722383472708&mallCode=1&pageListType=4&imgRatio=1-1"
+  },
+  {
+    "src": "shein/shein1005.jpeg",
+    "title": "Top de Malla con Margaritas",
+    "description": "Top de malla transparente con estampado de margaritas, perfecto para el verano.",
+    "link": "https://www.shein.com/SHEIN-VCAY-Daisy-Print-Dolman-Sleeve-Lettuce-Trim-Summer-Mesh-Top-Without-Bra-p-12700967.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_1%60ps%3D4_1%60jc%3Dreal_4436&src_module=All&src_tab_page_id=page_home1722383472708&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1006.jpeg",
+    "title": "Bikini con Estampado Floral",
+    "description": "Bikini de dos piezas con estampado floral, ideal para la playa.",
+    "link": "https://www.shein.com/SHEIN-Swim-Women-s-Summer-Beach-Floral-Printed-Halter-Neck-Tie-Sexy-Bikini-Set-p-35379225.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_1%60ps%3D4_1%60jc%3Dreal_4436&src_module=All&src_tab_page_id=page_home1722383472708&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1007.jpeg",
+    "title": "Shorts de Mezclilla Rotos",
+    "description": "Shorts de mezclilla con detalles rotos, perfectos para un look casual.",
+    "link": "https://www.shein.com/SHEIN-EZwear-Ripped-Raw-Hem-Denim-Shorts-p-15115415.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_1%60ps%3D4_1%60jc%3Dreal_4436&src_module=All&src_tab_page_id=page_home1722383472708&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1008.jpeg",
+    "title": "Bikini de Dos Piezas con Estampado Floral",
+    "description": "Bikini con estampado floral, perfecto para el verano en la playa.",
+    "link": "https://www.shein.com/1pc-Summer-Beach-Digital-Print-Knit-Tie-Back-Halter-Two-Piece-Bikini-Set-p-38027674.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_1%60ps%3D4_1%60jc%3Dreal_4436&src_module=All&src_tab_page_id=page_home1722383472708&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1009.jpeg",
+    "title": "Falda de Playa con Abertura",
+    "description": "Falda de punto con abertura lateral, ideal para la playa.",
+    "link": "https://www.shein.com/SHEIN-Swim-Summer-Beach-Drawstring-Tie-Front-Slit-Hem-Beach-Cover-Up-Skirt-p-25369791.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_1%60ps%3D4_1%60jc%3Dreal_4436&src_module=All&src_tab_page_id=page_home1722383472708&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1010.jpeg",
+    "title": "Camiseta de Tirantes Ajustada",
+    "description": "Camiseta de tirantes ajustada de canalé, perfecta para el verano.",
+    "link": "https://www.shein.com/SHEIN-EZwear-Solid-Slim-Fit-Ribbed-Camisole-Top-p-30770189.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_1%60ps%3D4_1%60jc%3Dreal_4436&src_module=All&src_tab_page_id=page_home1722383472708&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1011.jpeg",
+    "title": "Traje de Baño con Estampado de Palmeras",
+    "description": "Traje de baño con estampado de palmeras, perfecto para hombres.",
+    "link": "https://www.shein.com/Manfinity-Swimmode-Men-Coconut-Tree-Bird-Print-Drawstring-Waist-Swim-Trunks-p-6491957.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_2%60ps%3D4_2%60jc%3Dreal_2026&src_module=All&src_tab_page_id=page_home1722383764080&mallCode=1&pageListType=4&imgRatio=1-1"
+  },
+  {
+    "src": "shein/shein1012.jpeg",
+    "title": "Camiseta con Gráfico Divertido",
+    "description": "Camiseta con gráfico divertido, ideal para cualquier ocasión casual.",
+    "link": "https://www.shein.com/Funny-emoji-graphic-tee-for-men-p-26808739.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_2%60ps%3D4_2%60jc%3Dreal_2026&src_module=All&src_tab_page_id=page_home1722383764080&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1013.jpeg",
+    "title": "Camiseta Casual con Letra",
+    "description": "Camiseta de manga corta con letra impresa, perfecta para el verano.",
+    "link": "https://www.shein.com/Manfinity-Homme-Men-s-Summer-Casual-Letter-Printed-Short-Sleeve-T-Shirt-With-Random-Tie-Dye-Pattern-p-31914479.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_2%60ps%3D4_2%60jc%3Dreal_2026&src_module=All&src_tab_page_id=page_home1722383764080&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1014.jpeg",
+    "title": "Camiseta Retro de Scooby-Doo",
+    "description": "Camiseta de Scooby-Doo con estilo retro, ideal para los fans de la serie.",
+    "link": "https://www.shein.com/SCOOBY-DOO-X-SHEIN-1pc-Casual-Loose-Fit-Knit-College-Style-Retro-Print-Short-Sleeve-T-Shirt-p-36875635.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_2%60ps%3D4_2%60jc%3Dreal_2026&src_module=All&src_tab_page_id=page_home1722383764080&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1015.jpeg",
+    "title": "Gafas de Sol Estilo Cat Eye",
+    "description": "Gafas de sol estilo cat eye, perfectas para un look veraniego.",
+    "link": "https://www.shein.com/1-Pair-Of-Multicolor-Triangle-Cat-Eye-Sunglasses-A-Fashionable-Accessory-Suitable-For-Traveling-Sun-Protection-And-Beach-Activities-Suitable-For-Fashionable-Eyewear-For-Women-And-Men-Perfect-For-Climbing-And-Outdoor-Activities-Decorative-Glasses-With-A-Unique-Frame-Shape-Ideal-For-Outdoor-Travel-Fashionable-Decorative-Sunglasses-Beach-Accessories-Parties-Travel-Dining-Gifts-And-Various-Other-Activities-p-37527600.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_2%60ps%3D4_2%60jc%3Dreal_2026&src_module=All&src_tab_page_id=page_home1722383764080&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1016.jpeg",
+    "title": "Calcetines Deportivos a Rayas",
+    "description": "Calcetines deportivos transpirables y de secado rápido, perfectos para otoño e invierno.",
+    "link": "https://www.shein.com/3-5-6-Pairs-Women-s-Casual-Crew-Striped-Pattern-Socks-Breathable-Moisture-Wicking-Medium-Tube-Workout-Socks-For-Autumn-Winter-p-28545565.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_2%60ps%3D4_2%60jc%3Dreal_2026&src_module=All&src_tab_page_id=page_home1722383764080&mallCode=1&pageListType=4&imgRatio=1-1"
+  },
+  {
+    "src": "shein/shein1017.jpeg",
+    "title": "Camisa de Hombre con Botones",
+    "description": "Camisa blanca de manga corta con botones, ideal para un look casual y elegante.",
+    "link": "https://www.shein.com/Manfinity-Homme-Men-Solid-Button-Up-Shirt-p-18918267.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_2%60ps%3D4_2%60jc%3Dreal_2026&src_module=All&src_tab_page_id=page_home1722383764080&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1018.jpeg",
+    "title": "Shorts Deportivos con Gráfico",
+    "description": "Shorts deportivos con gráfico de Los Ángeles, perfectos para actividades al aire libre.",
+    "link": "https://www.shein.com/Manfinity-Sporsity-Men-Letter-Graphic-Drawstring-Waist-Shorts-p-10937022.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_2%60ps%3D4_2%60jc%3Dreal_2026&src_module=All&src_tab_page_id=page_home1722383764080&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1019.jpeg",
+    "title": "Sudadera con Estampado Espacial",
+    "description": "Sudadera con capucha y estampado de cohetes y alienígenas, ideal para el invierno.",
+    "link": "https://www.shein.com/Men-s-Spacecraft-Alien-Pattern-Printed-Hoodie-p-26523071.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_2%60ps%3D4_2%60jc%3Dreal_2026&src_module=All&src_tab_page_id=page_home1722383764080&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1020.jpeg",
+    "title": "Brazaletes de Niñas con Perlas",
+    "description": "Conjunto de 5 brazaletes con perlas falsas y detalles de corazones, ideal para niñas.",
+    "link": "https://www.shein.com/5pcs-Girls-Butterfly-Shaped-Beaded-Bracelets-With-Seashell-And-Faux-Pearl-Detail-p-26493700.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_3%60ps%3D4_3%60jc%3DitemPicking_100121644&src_module=All&src_tab_page_id=page_home1722384092814&pageListType=2&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1021.jpeg",
+    "title": "Calcetines para Bebés con Carita",
+    "description": "Conjunto de 5 pares de calcetines con carita sonriente, perfectos para bebés.",
+    "link": "https://www.shein.com/5pairs-set-Baby-Cartoon-Pattern-Solid-Color-Socks-p-22869287.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_3%60ps%3D4_3%60jc%3DitemPicking_100121644&src_module=All&src_tab_page_id=page_home1722384092814&pageListType=2&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1022.jpeg",
+    "title": "Gafas de Sol Cuadradas para Niños",
+    "description": "Conjunto de 3 gafas de sol cuadradas en colores variados, ideales para niños.",
+    "link": "https://www.shein.com/3pcs-Kids-Fashionable-Square-Shaped-Sunglasses-p-36073940.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_3%60ps%3D4_3%60jc%3DitemPicking_100121644&src_module=All&src_tab_page_id=page_home1722384092814&pageListType=2&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1023.jpeg",
+    "title": "Vestido de Sandía para Niñas",
+    "description": "Vestido con estampado de sandía, perfecto para el verano y para niñas pequeñas.",
+    "link": "https://www.shein.com/SHEIN-Young-Girl-Watermelon-Print-Shirred-Cami-Dress-p-9914884.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_3%60ps%3D4_3%60jc%3DitemPicking_100121644&src_module=All&src_tab_page_id=page_home1722384092814&pageListType=2&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1024.jpeg",
+    "title": "Juego Elegante de 5 Lazos con Estampado de Lunares y Gingham",
+    "description": "Juego elegante de 5 piezas de lazos con estampado de lunares y gingham, perfecto para la escuela.",
+    "link": "https://www.shein.com/Elegant-5pcs-Polka-Dot-Gingham-Print-Scrunchie-School-p-10116673.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_12%60ps%3D4_12%60jc%3Dreal_3631&src_module=All&src_tab_page_id=page_home1722384259805&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1025.jpeg",
+    "title": "Gorra de Béisbol Lavada Bordada MIMI de 1 Pieza",
+    "description": "Sombrero de sol ajustable para exteriores en primavera, otoño, viajes, vacaciones en la playa y estilo Y2K para jóvenes.",
+    "link": "https://www.shein.com/1pc-Embroidered-MIMI-Washed-Baseball-Cap-Adjustable-Outdoor-Sun-Hat-For-Spring-Autumn-Travel-Beach-Vacation-Y2K-Style-For-Youth-p-39036053.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_12%60ps%3D4_12%60jc%3Dreal_3631&src_module=All&src_tab_page_id=page_home1722384259805&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1026.jpeg",
+    "title": "Juego de 20 Clips de Mariposa",
+    "description": "Clips de mariposa de colores aleatorios, juego de 20 piezas.",
+    "link": "https://www.shein.com/20pcs-Set-Butterfly-Claw-Hair-Clips-Random-Colors-Cute-p-23697904.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_12%60ps%3D4_12%60jc%3Dreal_3631&src_module=All&src_tab_page_id=page_home1722384259805&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1027.jpeg",
+    "title": "Collar de Cadena con Gotas de Aceite Florales de Verano",
+    "description": "Collar de cadena con gotas de aceite florales de verano, perfecto para cualquier conjunto.",
+    "link": "https://www.shein.com/1pc-Fashionable-Summer-Floral-Drop-Oil-Chain-Necklace-p-13610182.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_13%60ps%3D4_13%60jc%3Dreal_3634&src_module=All&src_tab_page_id=page_home1722384366675&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1028.jpeg",
+    "title": "Juego de 20 Cajas de Almacenamiento de Joyas de Plástico con Tapa Transparente",
+    "description": "Juego de 20 cajas de almacenamiento de joyas de plástico con tapas transparentes para uso diario.",
+    "link": "https://www.shein.com/20pcs-set-Plastic-Jewelry-Storage-Box-With-Transparent-Cover-For-Daily-Use-p-15615961.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_13%60ps%3D4_13%60jc%3Dreal_3634&src_module=All&src_tab_page_id=page_home1722384366675&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1029.jpeg",
+    "title": "Juego de 12 Pendientes de Colgante con Forma de Estrella y Corazón",
+    "description": "Adecuados para el uso diario de las damas, estos pendientes vienen en forma de estrella y corazón.",
+    "link": "https://www.shein.com/12pcs-Summer-Cute-Simple-Style-Star-Shaped-Heart-Shaped-Pendant-Earrings-Suitable-For-Ladies-Daily-Wear-p-20850677.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_13%60ps%3D4_13%60jc%3Dreal_3634&src_module=All&src_tab_page_id=page_home1722384366675&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1030.jpeg",
+    "title": "Collar Colgante con Grabado de Letra en Color Dorado",
+    "description": "Collar colgante con grabado de letra en color dorado, elegante y a la moda.",
+    "link": "https://www.shein.com/1pc-Gold-color-Rectangular-Tag-Feature-Alphabet-Letter-Engraving-Pendant-Necklace-For-Women-Elegant-Fashionable-Jewelry-Gift-p-21251925.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_13%60ps%3D4_13%60jc%3Dreal_3634&src_module=All&src_tab_page_id=page_home1722384366675&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1031.jpeg",
+    "title": "Collar con Encanto de Cereza",
+    "description": "Collar con encanto de cereza, elegante para cualquier ocasión.",
+    "link": "https://www.shein.com/Cherry-Charm-Necklace-p-15698110.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_13%60ps%3D4_13%60jc%3Dreal_3634&src_module=All&src_tab_page_id=page_home1722384366675&mallCode=1&pageListType=4&imgRatio=3-4"
+  },
+  {
+    "src": "shein/shein1032.jpeg",
+    "title": "Pendientes de Tacha de Lazo de Plata Esterlina 925 de 1 Par",
+    "description": "Pendientes de tacha de lazo de plata esterlina 925, simples y elegantes para uso diario.",
+    "link": "https://www.shein.com/1pair-Simple-925-Sterling-Silver-Bow-Tie-Stud-Earrings-For-Women-Daily-Wear-p-20362437.html?src_identifier=on%3DIMAGE_COMPONENT%60cn%3Dshopbycate%60hz%3DhotZone_13%60ps%3D4_13%60jc%3Dreal_3634&src_module=All&src_tab_page_id=page_home1722384366675&mallCode=1&pageListType=4&imgRatio=3-4"
+  }
+]
