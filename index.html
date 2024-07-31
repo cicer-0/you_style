@@ -26,6 +26,15 @@
     </script>
   </head>
   <body>
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button" onclick="closeModal()">&times;</span>
+        <img src="assets/imgs/sorteo.jpeg" alt="Sorteo de 200 seguidores" class="modal-image" />
+        <button class="modern-button" onclick="redirectToFacebook()">Ir a Facebook</button>
+      </div>
+    </div>
+
     <header>
       <img
         src="assets/imgs/header-background.jpeg"
@@ -119,9 +128,18 @@
         window.open("https://www.temu.com/", "_blank");
       }
 
+      function redirectToFacebook() {
+        window.open("https://www.facebook.com/youstyletm", "_blank");
+      }
+
+      function closeModal() {
+        document.getElementById('modal').style.display = 'none';
+      }
+
       // Cargar productos de Shein por defecto
       window.onload = function() {
         selectButton('shein');
+        document.getElementById('modal').style.display = 'block';
       };
     </script>
   </body>
