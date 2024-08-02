@@ -9,7 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="assets/icons/youstyletm.jpg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/icons/youstyletm.jpg"
+      type="image/x-icon"
+    />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -27,11 +31,24 @@
   </head>
   <body>
     <!-- Modal -->
-    <div id="modal" class="modal">
+    <div id="modal" class="modal" onclick="closeModalOnClickOutside(event)">
       <div class="modal-content">
-        <span class="close-button" onclick="closeModal()">&times;</span>
-        <img src="assets/imgs/sorteo.jpeg" alt="Sorteo de 200 seguidores" class="modal-image" />
-        <button class="modern-button" onclick="redirectToFacebook()">Ir a Facebook</button>
+        <img
+          src="assets/imgs/sorteo.jpeg"
+          alt="Sorteo de 200 seguidores"
+          class="modal-image"
+        />
+        <div class="modal-buttons">
+          <button class="modern-button" onclick="redirectToFacebook()">
+            Ir a Facebook
+          </button>
+          <button
+            class="modern-button close-modal-button"
+            onclick="closeModal()"
+          >
+            Cerrar
+          </button>
+        </div>
       </div>
     </div>
 
@@ -50,14 +67,30 @@
     <section class="services">
       <h2>Productos destacados</h2>
       <div class="buttons-container">
-        <button id="shein-button" class="custom-button shein selected" onclick="selectButton('shein')">
-          <img src="assets/icons/shein-icon.svg" alt="Shein" class="button-icon"/> 
+        <button
+          id="shein-button"
+          class="custom-button shein selected"
+          onclick="selectButton('shein')"
+        >
+          <img
+            src="assets/icons/shein-icon.svg"
+            alt="Shein"
+            class="button-icon"
+          />
           Shein
         </button>
-        <button id="temu-button" class="custom-button temu" onclick="selectButton('temu')">
-          <img src="assets/icons/temu-icon.svg" alt="Temu" class="button-icon"/> 
+        <button
+          id="temu-button"
+          class="custom-button temu"
+          onclick="selectButton('temu')"
+        >
+          <img
+            src="assets/icons/temu-icon.svg"
+            alt="Temu"
+            class="button-icon"
+          />
           Temu
-        </button>        
+        </button>
       </div>
       <div id="product-list" class="product-list"></div>
     </section>
@@ -69,39 +102,58 @@
       </p>
       <p>Grupos de WhatsApp</p>
       <div class="whatsapp-link">
-        <a href="https://chat.whatsapp.com/CVAtExXUPT4FFAeLgKYryR" target="_blank">
-          <img src="assets/icons/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon" />
+        <a
+          href="https://chat.whatsapp.com/CVAtExXUPT4FFAeLgKYryR"
+          target="_blank"
+        >
+          <img
+            src="assets/icons/whatsapp-icon.png"
+            alt="WhatsApp"
+            class="whatsapp-icon"
+          />
           SHEIN STYLE
         </a>
       </div>
       <div class="whatsapp-link">
-        <a href="https://chat.whatsapp.com/D0xBrvvCL2b12fElrLc5z6" target="_blank">
-          <img src="assets/icons/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon" />
+        <a
+          href="https://chat.whatsapp.com/D0xBrvvCL2b12fElrLc5z6"
+          target="_blank"
+        >
+          <img
+            src="assets/icons/whatsapp-icon.png"
+            alt="WhatsApp"
+            class="whatsapp-icon"
+          />
           PEDIDOS TEMU
         </a>
       </div>
-    </section>    
+    </section>
     <footer>
       <p>Para realizar tu pedido, escríbenos al +51 932 360 375</p>
       <p>
         Visítanos en nuestra página de Facebook:
         <a href="https://www.facebook.com/youstyletm" target="_blank">
-          <img src="assets/icons/facebook-icon.jpeg" alt="Facebook" class="social-icon"/> YOU STYLE en Facebook
+          <img
+            src="assets/icons/facebook-icon.jpeg"
+            alt="Facebook"
+            class="social-icon"
+          />
+          YOU STYLE en Facebook
         </a>
       </p>
     </footer>
-    
+
     <script src="scripts.js"></script>
     <script>
       function selectButton(button) {
-        document.getElementById('shein-button').classList.remove('selected');
-        document.getElementById('temu-button').classList.remove('selected');
-        
-        if (button === 'shein') {
-          document.getElementById('shein-button').classList.add('selected');
+        document.getElementById("shein-button").classList.remove("selected");
+        document.getElementById("temu-button").classList.remove("selected");
+
+        if (button === "shein") {
+          document.getElementById("shein-button").classList.add("selected");
           loadSheinProducts();
         } else {
-          document.getElementById('temu-button').classList.add('selected');
+          document.getElementById("temu-button").classList.add("selected");
           loadTemuProducts();
         }
       }
@@ -133,13 +185,28 @@
       }
 
       function closeModal() {
-        document.getElementById('modal').style.display = 'none';
+        document.getElementById("modal").style.display = "none";
+      }
+
+      function closeModalOnClickOutside(event) {
+        const modal = document.getElementById("modal");
+        const modalContent = document.querySelector(".modal-content");
+
+        if (event.target === modal && !modalContent.contains(event.target)) {
+          closeModal();
+        }
       }
 
       // Cargar productos de Shein por defecto
-      window.onload = function() {
-        selectButton('shein');
-        document.getElementById('modal').style.display = 'block';
+      window.onload = function () {
+        selectButton("shein");
+        document.getElementById("modal").style.display = "block";
+      };
+
+      // Cargar productos de Shein por defecto
+      window.onload = function () {
+        selectButton("shein");
+        document.getElementById("modal").style.display = "block";
       };
     </script>
   </body>
